@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dbf063db9a113e54b96c55eccea507ce
+guid: ee8cb04755d4fc84597a28a231cb9160
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tortilla Tray_0
+      name: Ticket_Tack_3
       rect:
         serializedVersion: 2
-        x: 45
-        y: 237
-        width: 1069
-        height: 532
+        x: 1385
+        y: 847
+        width: 41
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72fd2b596cbc7534a9c42e9f278af041
-      internalID: 1680421973
+      spriteID: ef64310565f561842b99559a892e2327
+      internalID: -1053855294
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tortilla Tray_0: 1680421973
+      Ticket_Tack_0: -232041559
+      Ticket_Tack_3: -1053855294
+      Ticket_Tack_2: -426707024
+      Ticket_Tack_1: 628746045
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

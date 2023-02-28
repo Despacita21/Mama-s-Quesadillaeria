@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dbf063db9a113e54b96c55eccea507ce
+guid: a810314e3e82bce4cbca3ef66b51b405
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tortilla Tray_0
+      name: Ticket_Holder_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 237
-        width: 1069
-        height: 532
+        x: 0
+        y: 699
+        width: 1600
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72fd2b596cbc7534a9c42e9f278af041
-      internalID: 1680421973
+      spriteID: f0e5daa16bb2f334c861aa5f9c26eb3c
+      internalID: 404358672
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tortilla Tray_0: 1680421973
+      Ticket_Holder_0: 404358672
+      Ticket_Holder_1: -1658208749
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
