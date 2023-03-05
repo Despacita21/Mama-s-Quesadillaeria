@@ -6,13 +6,17 @@ public class TortillaSelection : MonoBehaviour
 {
 
     [SerializeField] TortillaType tortillaType;
-    [SerializeField] GameObject tortillaPrefab;
 
-    [SerializeField] Vector3 tortillaSpawnLocation;
+    BuildStationManager buildStationManager;
+
+    private void Start()
+    {
+        buildStationManager = FindObjectOfType<BuildStationManager>();
+    }
 
     private void OnMouseDown()
     {
-        Instantiate(tortillaPrefab, tortillaSpawnLocation, Quaternion.identity);
+        buildStationManager.SelectTortilla(tortillaType);
     }
 
 }

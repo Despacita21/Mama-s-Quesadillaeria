@@ -7,9 +7,10 @@ public class BuildStationManager : MonoBehaviour
     
     enum BuildState
     {
-        Tortilla,
-        Cheese,
-        Toppings
+        SelectTortilla,
+        SelectCheese,
+        PourCheese,
+        SelectToppings
     }
     private BuildState buildState;
 
@@ -18,7 +19,17 @@ public class BuildStationManager : MonoBehaviour
 
     public void SelectTortilla(TortillaType selectedTortilla)
     {
+        buildState = BuildState.SelectCheese;
+    }
 
+    public void SelectCheese()
+    {
+        buildState = BuildState.PourCheese;
+    }
+
+    public void PourCheese()
+    {
+        buildState = BuildState.SelectToppings;
     }
 
 }
