@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ee8cb04755d4fc84597a28a231cb9160
+guid: 40f1c31e352ae384a81cdfd76ce1ee8a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ticket_Tack_3
+      name: Button V2_0
       rect:
         serializedVersion: 2
-        x: 1385
-        y: 847
-        width: 41
-        height: 29
+        x: 206
+        y: 32
+        width: 198
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef64310565f561842b99559a892e2327
-      internalID: -1053855294
+      spriteID: 52f7a62cf91282147b53a85d74762c95
+      internalID: 1471791066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button V2_1
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 33
+        width: 198
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdda7ad941c913346a26f51b1a2cee23
+      internalID: -1032653768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button V2_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 33
+        width: 198
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbdbba0ac1c5c744a185bbb2437af1a
+      internalID: -577169834
       vertices: []
       indices: 
       edges: []
@@ -148,10 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ticket_Tack_0: -232041559
-      Ticket_Tack_3: -1053855294
-      Ticket_Tack_2: -426707024
-      Ticket_Tack_1: 628746045
+      Button V2_1: -1032653768
+      Button V2_2: -577169834
+      Button V2_0: 1471791066
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

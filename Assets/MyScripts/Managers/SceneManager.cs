@@ -18,10 +18,10 @@ public class SceneManager : MonoBehaviour
 
     [SerializeField] Scenes currentScene;
 
-    [SerializeField] private Vector3 OrderStationPosition;
-    [SerializeField] private Vector3 BuildStationPosition;
-    [SerializeField] private Vector3 CookingStationPosition;
-    [SerializeField] private Vector3 ChipsStationPosition;
+    [SerializeField] private Camera OrderStationCamera;
+    [SerializeField] private Camera BuildStationCamera;
+    [SerializeField] private Camera CookingStationCamera;
+    [SerializeField] private Camera ChipsStationCamera;
 
     [Space(10)]
 
@@ -37,34 +37,38 @@ public class SceneManager : MonoBehaviour
         {
             currentScene = (Scenes)requestedScene;
             transitionAnimator.Play("SwipeAnim");
-            Vector3 requestedPosition;
+            Camera requestedCamera = Camera.main;
             switch (requestedScene)
             {
                 case 0:
-                    requestedPosition = OrderStationPosition;
+                    requestedCamera = OrderStationCamera;
                     break;
                 case 1:
-                    requestedPosition = BuildStationPosition;
+                    requestedCamera = BuildStationCamera;
                     break;
                 case 2:
-                    requestedPosition = CookingStationPosition;
+                    requestedCamera = CookingStationCamera;
                     break;
                 case 3:
-                    requestedPosition = ChipsStationPosition;
+                    requestedCamera = ChipsStationCamera;
                     break;
                 default:
-                    requestedPosition = Vector3.zero;
+                    Debug.LogError("No scene camera found");
                     break;
             }
 
-            StartCoroutine(AnimationTimer(requestedPosition));
+            StartCoroutine(AnimationTimer(requestedCamera));
         }
     }
 
-    public IEnumerator AnimationTimer(Vector3 requestedPosition)
+    public IEnumerator AnimationTimer(Camera requestedCamera)
     {
         yield return new WaitForSeconds(0.2f);
-        transform.position = requestedPosition;
+        OrderStationCamera.gameObject.SetActive(false);
+        BuildStationCamera.gameObject.SetActive(false);
+        CookingStationCamera.gameObject.SetActive(false);
+        ChipsStationCamera.gameObject.SetActive(false);
+        requestedCamera.gameObject.SetActive(true);
     }
 
 }

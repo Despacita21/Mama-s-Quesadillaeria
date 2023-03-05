@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 22db46226ecbf9f458a183e2cfef2f07
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cheddar_Cheese_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 520
+        width: 403
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 186.5, y: 129.5}
+        - {x: -201.5, y: -107.5}
+        - {x: -201.5, y: -129.5}
+        - {x: -41.5, y: -129.5}
+        - {x: 196.5, y: 51.5}
+        - {x: 201.5, y: 75.5}
+        - {x: 201.5, y: 129.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c2e86544b289c408e1649608af6fe5
+      internalID: -426122654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheddar_Cheese_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 334
+        width: 403
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 192.5, y: 197.5}
+        - {x: 153.5, y: 177.5}
+        - {x: 33.5, y: 105.5}
+        - {x: -98.5, y: -17.5}
+        - {x: -144.5, y: -76.5}
+        - {x: -201.5, y: -175.5}
+        - {x: -201.5, y: -197.5}
+        - {x: -192.5, y: -197.5}
+        - {x: -186.5, y: -191.5}
+        - {x: 201.5, y: 188.5}
+        - {x: 201.5, y: 197.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ce402fe2cdefc4ca542beca57d34ce
+      internalID: 392189692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheddar_Cheese_2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 329
+        width: 245
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -122.5, y: 208.5}
+        - {x: -122.5, y: 66.5}
+        - {x: 44.5, y: -208.5}
+        - {x: 122.5, y: -208.5}
+        - {x: 122.5, y: -142.5}
+        - {x: -108.5, y: 208.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d925f18251f4b4b94d5c961dab0745
+      internalID: -1821838448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheddar_Cheese_3
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 601
+        width: 322
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -161, y: -91.5}
+        - {x: -161, y: -116.5}
+        - {x: -151, y: -116.5}
+        - {x: 161, y: 108.5}
+        - {x: 161, y: 116.5}
+        - {x: 126, y: 116.5}
+        - {x: -84, y: 20.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d5b6a22868bf84a97b5afd0baadf5e
+      internalID: -1910448531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheddar_Cheese_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 75
+        width: 258
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -129, y: 234.5}
+        - {x: -129, y: 202.5}
+        - {x: -75, y: -108.5}
+        - {x: 82, y: -234.5}
+        - {x: 129, y: -234.5}
+        - {x: 129, y: -217.5}
+        - {x: -121, y: 234.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc462e1f964453f48b19449afb0d8bc8
+      internalID: -576826546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheddar_Cheese_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 146
+        width: 198
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88, y: 200}
+        - {x: 22, y: 112}
+        - {x: -43, y: 15}
+        - {x: -99, y: -124}
+        - {x: -99, y: -197}
+        - {x: -96, y: -200}
+        - {x: -73, y: -200}
+        - {x: 99, y: 184}
+        - {x: 99, y: 200}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c31f5e38bd62a54f8d9f301383d33b1
+      internalID: -419292837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheddar_Cheese_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 120
+        width: 294
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -131, y: 192.5}
+        - {x: -147, y: 192.5}
+        - {x: -147, y: 118.5}
+        - {x: -137, y: 52.5}
+        - {x: 130, y: -190.5}
+        - {x: 136, y: -192.5}
+        - {x: 147, y: -192.5}
+        - {x: 147, y: -182.5}
+        - {x: -130, y: 191.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dbf875e409f3c44b748df3f31da56f
+      internalID: 976654611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cheddar_Cheese_0: -426122654
+      Cheddar_Cheese_4: -576826546
+      Cheddar_Cheese_6: 976654611
+      Cheddar_Cheese_3: -1910448531
+      Cheddar_Cheese_5: -419292837
+      Cheddar_Cheese_1: 392189692
+      Cheddar_Cheese_2: -1821838448
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
