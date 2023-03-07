@@ -2382,7 +2382,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tortillaType: 0
   tortillaPrefab: {fileID: 7845935176033308304, guid: 979e4838f36152e408c8dc6be45e3a1b, type: 3}
-  tortillaSpawnLocation: {x: -3, y: -15, z: 0}
 --- !u!70 &564164189
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6154,7 +6153,7 @@ Transform:
   m_GameObject: {fileID: 1305658050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6219342, y: 0.8515154, z: 1.6219342}
+  m_LocalScale: {x: 1.8082944, y: 0.9493545, z: 1.8082944}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1764214005}

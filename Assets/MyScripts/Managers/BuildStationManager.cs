@@ -17,8 +17,26 @@ public class BuildStationManager : MonoBehaviour
     [Header("Tortilla Variables")]
     [SerializeField] GameObject flourTortilla, cornTortilla;
 
-    public void SelectTortilla(TortillaType selectedTortilla)
+    public void Update()
     {
+        switch (buildState) 
+        {
+            case BuildState.SelectTortilla:
+                break;
+            case BuildState.SelectCheese:
+                break;
+            case BuildState.SelectToppings:
+                break;
+            default:
+                break;
+        }
+    }
+
+
+    public void SelectTortilla(TortillaType selectedTortilla, GameObject tortillaPrefab, Transform tortillaTransform)
+    {
+        GameObject tortillaInstance = Instantiate(tortillaPrefab, tortillaTransform.position, Quaternion.identity);
+
         buildState = BuildState.SelectCheese;
     }
 

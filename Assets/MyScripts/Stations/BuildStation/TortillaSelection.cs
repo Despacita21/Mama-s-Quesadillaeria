@@ -6,6 +6,7 @@ public class TortillaSelection : MonoBehaviour
 {
 
     [SerializeField] TortillaType tortillaType;
+    [SerializeField] GameObject tortillaPrefab;
 
     BuildStationManager buildStationManager;
 
@@ -16,7 +17,7 @@ public class TortillaSelection : MonoBehaviour
 
     private void OnMouseDown()
     {
-        buildStationManager.SelectTortilla(tortillaType);
+        buildStationManager.SelectTortilla(tortillaType, tortillaPrefab, transform);
     }
 
 }
