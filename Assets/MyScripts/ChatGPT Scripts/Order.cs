@@ -2,6 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class Order : MonoBehaviour
+{
+    public List<FoodItem> foodItems;
+    public int orderNumber;
+
+    // Add a food item to the order
+    public void AddFoodItem(FoodItem foodItem)
+    {
+        foodItems.Add(foodItem);
+    }
+
+    // Remove a food item from the order
+    public void RemoveFoodItem(FoodItem foodItem)
+    {
+        foodItems.Remove(foodItem);
+    }
+    
+    // Submit the order
+    public void SubmitOrder()
+    {
+        // Send the order to the kitchen or a server to prepare the food
+        Debug.Log("Submitting order #" + orderNumber + " with " + foodItems.Count + " food items.");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class Order
 {
     public int OrderNumber;
@@ -61,4 +103,4 @@ public class Order
         }
     }
 
-}
+}*/
