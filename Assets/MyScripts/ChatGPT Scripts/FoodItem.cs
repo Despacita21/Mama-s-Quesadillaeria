@@ -1,4 +1,4 @@
-public class FoodItem
+/*public class FoodItem
 {
     public string itemName;
 
@@ -6,4 +6,4 @@ public class FoodItem
     {
         itemName = name;
     }
-}
+}*/

@@ -2,11 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.Events;
 
-public class SceneManager : MonoBehaviour
+public class StationManager : MonoBehaviour
 {
 
-    public enum Scenes
+    public static StationManager instance;
+    private void Awake()
+    {
+        print("Awake has been called");
+        instance = this;
+    }
+
+
+    public UnityEvent OnSceneTransition;
+    public void TransitionScenes(string newScene)
+    {
+        OnSceneTransition.Invoke();
+    }
+
+
+    public enum Stations
     {
         OrderStation,
         BuildStation,
@@ -16,7 +32,7 @@ public class SceneManager : MonoBehaviour
 
     [Header("Scenes")]
 
-    [SerializeField] Scenes currentScene;
+    public Stations currentStation;
 
     [SerializeField] private Camera OrderStationCamera;
     [SerializeField] private Camera BuildStationCamera;
@@ -31,14 +47,14 @@ public class SceneManager : MonoBehaviour
 
 
 
-    public void SwitchScenes(int requestedScene)
+    public void SwitchScenes(int requestedStation)
     {
-        if (requestedScene != (int)currentScene)
+        if (requestedStation != (int)currentStation)
         {
-            currentScene = (Scenes)requestedScene;
+            currentStation = (Stations)requestedStation;
             transitionAnimator.Play("SwipeAnim");
             Camera requestedCamera = Camera.main;
-            switch (requestedScene)
+            switch (requestedStation)
             {
                 case 0:
                     requestedCamera = OrderStationCamera;
@@ -56,7 +72,6 @@ public class SceneManager : MonoBehaviour
                     Debug.LogError("No scene camera found");
                     break;
             }
-
             StartCoroutine(AnimationTimer(requestedCamera));
         }
     }
@@ -69,6 +84,7 @@ public class SceneManager : MonoBehaviour
         CookingStationCamera.gameObject.SetActive(false);
         ChipsStationCamera.gameObject.SetActive(false);
         requestedCamera.gameObject.SetActive(true);
+        OnSceneTransition.Invoke();
     }
 
 }
