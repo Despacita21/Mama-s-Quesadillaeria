@@ -4885,11 +4885,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf8151119d706341b7b4f5c2de2b90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bassAudioSource: {fileID: 0}
-  rhythmAudioSource: {fileID: 0}
-  guitarAudioSource: {fileID: 0}
-  melodyAudioSource: {fileID: 0}
-  fadeRate: 0
+  bassAudioSource: {fileID: 848991510}
+  rhythmAudioSource: {fileID: 1640426402}
+  guitarAudioSource: {fileID: 307849289}
+  melodyAudioSource: {fileID: 95300994}
+  fadeRate: 1
 --- !u!1 &911507100
 GameObject:
   m_ObjectHideFlags: 0

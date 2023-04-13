@@ -37,8 +37,8 @@ public class AudioManager : MonoBehaviour
             case StationManager.Stations.CookingStation:
                 StartCoroutine(FadeIn(bassAudioSource));
                 StartCoroutine(FadeIn(rhythmAudioSource));
-                StartCoroutine(FadeOut(guitarAudioSource));
-                StartCoroutine(FadeIn(melodyAudioSource));
+                StartCoroutine(FadeIn(guitarAudioSource));
+                StartCoroutine(FadeOut(melodyAudioSource));
                 break;
             case StationManager.Stations.ChipsStation:
                 StartCoroutine(FadeIn(bassAudioSource));
